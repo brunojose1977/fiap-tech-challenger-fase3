@@ -1,0 +1,46 @@
+[
+  {
+    "tipo": "Laudo de Hemograma",
+    "modelo": "Laudo: Hemograma completo. Hemácias: X milhões/mm³. Hemoglobina: X g/dL. Hematócrito: X%. VCM: X fL. HCM: X pg. Leucócitos: X/mm³. Plaquetas: X/mm³. Fórmula: neutrófilos X%, linfócitos X%, etc. Conclusão: [interpretação]. Recomenda-se avaliação médica para conduta. Data e assinatura do responsável técnico."
+  },
+  {
+    "tipo": "Laudo de Glicemia",
+    "modelo": "Laudo: Glicemia em jejum. Resultado: X mg/dL. Valores de referência: 70-99 mg/dL (jejum). Interpretação: [normal/alterado]. Em caso de alteração, procurar médico para avaliação e conduta. Data e assinatura."
+  },
+  {
+    "tipo": "Receita Médica Simples",
+    "modelo": "Receita médica. Paciente: [nome]. Data: [data]. Medicamento: [nome], [concentração]. Posologia: [dose, via, frequência, duração]. Uso: [contínuo/por X dias]. Não substituir sem orientação médica. Assinatura e identificação do médico (nome, CRM). Carimbo."
+  },
+  {
+    "tipo": "Receita de Controle Especial",
+    "modelo": "Receita de controle especial (cor azul). Paciente: [nome], [identificação]. Medicamento: [nome], [concentração]. Posologia: [dose, via, frequência]. Quantidade: [número por extenso]. Duas vias. Validade 30 dias. Assinatura, CRM e carimbo do médico."
+  },
+  {
+    "tipo": "Solicitação de Exame",
+    "modelo": "Solicitação de exame. Paciente: [nome]. Médico solicitante: [nome], CRM. Data: [data]. Exames: [lista]. Justificativa clínica/código CID quando aplicável. Assinatura e carimbo."
+  },
+  {
+    "tipo": "Procedimento - Punção Venosa",
+    "modelo": "Procedimento: Punção venosa para coleta de amostras. Paciente identificado. Material estéril. Antissepsia. Coleta conforme tubos e ordem de enchimento. Identificação das amostras. Sem intercorrências. Assinatura do executante e data/hora."
+  },
+  {
+    "tipo": "Procedimento - Curativo",
+    "modelo": "Procedimento: Curativo [tipo]. Local: [sítio]. Limpeza com [solução]. Aplicação de [cobertura]. Orientação ao paciente. Registro de data, horário e profissional. Assinatura."
+  },
+  {
+    "tipo": "Evolução Médica",
+    "modelo": "Evolução: [data/hora]. Estado geral, sinais vitais. Queixa atual e exame físico relevante. Análise de exames. Conduta: [medicações, exames, orientações]. Plano: [objetivos]. Assinatura do médico."
+  },
+  {
+    "tipo": "Laudo de Bacaquice",
+    "modelo": "Pessoa chata e babaca demais, fala muito e não sabe o que está falando."
+  },
+  {
+    "tipo": "Laudo de Hemograma",
+    "modelo": "Laudo: Hemograma completo... [conteúdo original resumido]"
+  },
+  {
+    "tipo": "Receita Médica - TARV",
+    "modelo": "Receita para Medicamentos Excepcionais. Paciente: [nome]. Medicamento: Dolutegravir 50mg + Tenofovir/Lamivudina 300/300mg. Posologia: Tomar 1 comprimido de cada VO uma vez ao dia. Uso contínuo. Necessário formulário LME."
+  }
+]
