@@ -53,14 +53,21 @@ Fluxo de decisão **não-linear** via LangGraph:
 ---
 
 ## 🚀 Executando
-### Pré-requisitos
+### Pré-requisitos - configuração dos Secrets no Google Colab
 - **Google Colab** (GPU T4 recomendada)  
-- **Chave OpenAI:** `OPENAI_API_KEY`  
+- **Chave OpenAI:** `FIAP-TechChallenger-Fase3-ChatGPT-API-KEY`  
+- **Chave de token de acesso da sua conta do HuggingFace para baixar o modelo Llama:** `HF_TOKEN`  
+
 
 ### ▶️ Passos
 1. [Abrir notebook no Colab](https://colab.research.google.com/)  
-2. Garantir arquivos JSON em `data/`  
-3. Executar células sequencialmente  
+2. Garantir arquivos JSON dos dados sintéticos estejam em uma pasta com o nome `fine-tuning/dados_sinteticos/`
+3. Dê permissão do Google Colab para acessar o Google drive, ele buscará essa pasta com esse nome.
+4. Nesta mesma pasta, o modelo de fine-tuned gerado será salvo na pasta `fine-tuning/fine_tuned_model/`
+5. Executar células sequencialmente  
+6. Durante o processo, será necessário reinicar a sessão do Colab e depois execute novamente o bloco de comando a  
+   do Setup de Ambiente para concluir todas as instalaçãoes
+
 
 ---
 
@@ -77,6 +84,7 @@ Resposta > "Paciente com náusea persistente e perda de apetite."
 - **Interpretação:** Toxicidade moderada, impacto nas atividades diárias  
 - **Recomendação:** Avaliação clínica necessária — **sem prescrição automática**
 
+Para sair: digite "sair"
 ---
 
 ## 🛡️ Segurança
